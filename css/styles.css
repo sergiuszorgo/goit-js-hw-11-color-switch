@@ -1,0 +1,44 @@
+body {
+  background: wheat;
+  /* color: tomato; */
+}
+.btnCont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: flex; */
+}
+
+.button {
+  margin: 5px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.red {
+  background-color: #ff4747;
+}
+.red:hover {
+  background-color: #ff0000;
+}
+.green {
+  background-color: #4caf50;
+}
+.green:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
